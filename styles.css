@@ -1,9 +1,12 @@
+* {
+    font-family: arial, sans-serif;
+}
+
 .pic {
     position: absolute;
-    
     top: 300px;
     left: 50%;
-    margin-top: -91px;
+    margin-top: -96px;
     margin-left: -136px;
 }
 
@@ -12,14 +15,11 @@
     border-radius: 2px;
     color: #757575;
     font-family: arial, sans-serif;
-    margin: 11px 4px;
+    margin: 20px 3px;
     background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
     font-size: 13px;
-    margin-left: 5px;
-    margin-right: 5px;
     padding: 10px 15px;
     font-weight: 700;
-
 }
 
 .btn:hover {
@@ -29,8 +29,150 @@
     -moz-outline-radius: 2px;
 }
 
+a:visited, a:active{
+    color:inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+#nav a:hover{
+    text-decoration: underline;
+    color: rgba(0,0,0,0.5);
+}
+
+#nav #login:hover{
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+#nav ul{
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+#nav ul li {
+    display: block;
+    float: right;
+    padding: 10px 8px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+
+#topl {
+    display: block;
+    float: left;
+    padding: 10px 8px;
+    font-size: 13px;
+    color:  rgba(0,0,0,0.87);
+    position: absolute;
+    top: 0px;
+}
+
+#footl ul {
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    height: 40px;
+    left:0px;
+    margin:0px;
+    border-top: 1px solid lightgray;
+    padding-top: 0px;
+    line-height: 40px;
+}
+
+#footl ul li {
+    display: inline-block;
+    float: left;
+    padding: 0px 20px;
+    font-size: 13px;
+    margin-left: -20px;
+    color: rgba(102,102,102,1);
+}
+
+#footr ul {
+    margin-right: 20px;
+    position:fixed;
+    bottom:0px;
+    right: 0%;
+    margin-bottom:0px;
+    line-height: 40px;
+}
+#footr ul li {
+    display: inline-block;
+    float: right;
+    padding: 0px 15px;
+    font-size: 13px;
+    color: rgba(102,102,102,1);
+}
+
 .frm {
+    box-sizing: content-box;
     position: absolute;
     top: 320px;
+    right: 0px;
     width: 100%;
+    text-align: center;
+}
+
+#foot {
+    background-color: rgb(242,242,242);
+    position: fixed;
+    bottom: 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 40px;
+    left: 0px;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+#login {
+    color: white;
+    background-color: dodgerblue;
+    padding: 9px 14px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#nav #app {
+    background-image: url('things.png');
+    background-size: 528px 68px;
+    display: inline-block;
+    height: 30px;
+    margin-top: -9px;
+    width: 30px;
+    background-position: -132px -38px;
+    opacity: .55;
+    color: #000;
+}
+
+#nav #app:hover{
+    color:rgba(0,0,0,1);
+}
+
+#container {
+    width:550px;
+    font-size: 20px;
+    text-align:center;
+    padding-right:10px;
+    height:40px; 
+    border: 0px solid rgb(219, 213, 213);
+    border-radius: 1px;
+    margin: 0 auto;
+    box-shadow:  0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#tipkovnica{
+    background-image: url('keyboard.gif');
+    display: inline-block;
+    height: 12px;
+    width: 19px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
 }

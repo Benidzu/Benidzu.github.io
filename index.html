@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8">
-    <link href="styles.css" type="text/css" rel="stylesheet">
+        <meta charset="utf-8">
+        <link href="styles.css" type="text/css" rel="stylesheet">
     </head>
-
     <body>
+        <div id="nav">
+            <ul id="topl">
+                <li><a href="#">Store</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" id="login">Sign in</a></li>
+                <li><a href="#" id="app"></a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Gmail</a></li>
+            </ul>
+        </div>
         <div>
             <img src="google.png" class="pic"> 
         </div>
-        <div id="searchform" class="frm">
-            <div>
-                <center>
-                    <form>
-                        <input style="width:550px; height:40px; border: 0px solid rgb(219, 213, 213); border-radius: 1px;  box-shadow:  0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);;" type="text"><br>
-                        <input type="submit" action="#" value="Iskanje Google" class="btn">
-                        <input type="submit" action="#" value="Klik na srečo!" class="btn">
-                    </form>
-                </center>
+        <div id="searchform" class="frm">        
+            <form>
+                <div style="width:100%; margin: 0 auto;">
+                    <div id="container">
+                        <input style="padding-left:10px; padding-top:10px; border: 0px solid black; border-radius: 0px; width:90%; font-size:18px;" type="text";>
+                        <a href="#" id="tipkovnica"></a>
+                    </div><br>
+                </div> 
+                <input type="submit" action="#" value="Google Search" class="btn">
+                <input type="submit" action="#" value="I'm Feeling Lucky" class="btn">
+            </form>
+        </div>
+        <div id="foot">
+            <div id="footl">
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                </ul>
+            </div>
+            <div id="footr">
+                <ul>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
             </div>
         </div>
     </body>
-
 </html>
